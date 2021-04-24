@@ -15,16 +15,20 @@ A simple-sample *FastAPI* application with examples of `POST`, `GET` and `PUT` r
 
 **Building the Environment**
 
-Create new environment:
+Create a new environment:
+
 `conda env create --file source/environment.yml`
 
 Activate the environment you just created:
+
 `source activate fast-api`
 
 If you want to deactivate the environment:
+
 `conda deactivate`
 
 To run the App:
+
 ```
 cd source
 uvicorn main:app --reload
